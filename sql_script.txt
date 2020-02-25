@@ -1,0 +1,11 @@
+CREATE TABLE `users` (
+  `id` bigint NOT NULL AUTO_INCREMENT,
+  `created_date` datetime NOT NULL,
+  `email` varchar(320) DEFAULT NULL,
+  `phone_number` varchar(10) DEFAULT NULL,
+  `pin` varchar(6) NOT NULL,
+  `updated_date` datetime NOT NULL,
+  `user_id` varchar(50) NOT NULL,
+  `user_name` varchar(16) NOT NULL,
+  PRIMARY KEY (`id`)
+);

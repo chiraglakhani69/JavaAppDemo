@@ -1,0 +1,12 @@
+com\javaapp\demo\service\UserService.class
+com\javaapp\demo\dto\RegisterResponse.class
+com\javaapp\demo\util\ValidationUtil.class
+com\javaapp\demo\controller\UserController.class
+com\javaapp\demo\DemoApplication.class
+com\javaapp\demo\service\UserServiceImpl.class
+com\javaapp\demo\dto\RegisterRequest.class
+com\javaapp\demo\exception\ExceptionHandlerControllerAdvice.class
+com\javaapp\demo\entity\User.class
+com\javaapp\demo\exception\InvalidRequestException.class
+com\javaapp\demo\repository\UserRepository.class
+com\javaapp\demo\dto\ErrorResponse.class

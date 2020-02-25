@@ -1,0 +1,62 @@
+2020-02-25 20:19:51 INFO  UserServiceImpl:23 - User created with userId: 43e84bbb-d5ad-4db7-be60-cc322612e388
+2020-02-25 20:54:32 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper:308 - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.javaapp.demo.DemoApplicationTests], using SpringBootContextLoader
+2020-02-25 20:54:32 INFO  o.s.t.c.s.AbstractContextLoader:264 - Could not detect default resource locations for test class [com.javaapp.demo.DemoApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-02-25 20:54:32 INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils:83 - Could not detect default configuration classes for test class [com.javaapp.demo.DemoApplicationTests]: DemoApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-02-25 20:54:32 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper:235 - Found @SpringBootConfiguration com.javaapp.demo.DemoApplication for test class com.javaapp.demo.DemoApplicationTests
+2020-02-25 20:54:33 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper:248 - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-02-25 20:54:33 INFO  o.s.b.t.c.SpringBootTestContextBootstrapper:177 - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@f68f0dc, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@d2de489, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14bdbc74, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@12591ac8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a7fe64f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@38145825, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@41330d4f, org.springframework.test.context.event.EventPublishingTestExecutionListener@1b66c0fb, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3e0e1046, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@24c1b2d2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7dc19a70, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@508dec2b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1e4f4a5c]
+2020-02-25 20:54:33 INFO  c.j.d.DemoApplicationTests:55 - Starting DemoApplicationTests on LAPTOP-I2J0HLP6 with PID 12576 (started by chira in D:\Work\demo)
+2020-02-25 20:54:33 INFO  c.j.d.DemoApplicationTests:651 - No active profile set, falling back to default profiles: default
+2020-02-25 20:54:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 20:54:34 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 110ms. Found 1 JPA repository interfaces.
+2020-02-25 20:54:35 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 20:54:35 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 20:54:36 INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.9.Final}
+2020-02-25 20:54:36 INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 20:54:36 INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-25 20:54:37 INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-25 20:54:37 INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-25 20:54:38 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 20:54:38 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 20:54:39 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-25 20:54:40 INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:54:40 INFO  c.j.d.DemoApplicationTests:61 - Started DemoApplicationTests in 7.79 seconds (JVM running for 9.68)
+2020-02-25 20:54:41 INFO  o.s.s.c.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-25 20:54:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 20:54:41 INFO  c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-02-25 20:54:41 INFO  c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2020-02-25 21:45:26 INFO  c.j.d.DemoApplication:55 - Starting DemoApplication on LAPTOP-I2J0HLP6 with PID 16512 (D:\Work\demo\target\classes started by chira in D:\Work\demo)
+2020-02-25 21:45:26 INFO  c.j.d.DemoApplication:651 - No active profile set, falling back to default profiles: default
+2020-02-25 21:45:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:127 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-25 21:45:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate:187 - Finished Spring Data repository scanning in 80ms. Found 1 JPA repository interfaces.
+2020-02-25 21:45:27 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 21:45:27 INFO  o.s.b.w.e.t.TomcatWebServer:92 - Tomcat initialized with port(s): 8080 (http)
+2020-02-25 21:45:27 INFO  o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-25 21:45:27 INFO  o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2020-02-25 21:45:27 INFO  o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-25 21:45:28 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2020-02-25 21:45:28 INFO  o.s.w.c.ContextLoader:284 - Root WebApplicationContext: initialization completed in 1530 ms
+2020-02-25 21:45:28 INFO  o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-25 21:45:28 INFO  o.h.Version:46 - HHH000412: Hibernate Core {5.4.9.Final}
+2020-02-25 21:45:28 INFO  o.h.a.c.Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-25 21:45:28 INFO  c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-02-25 21:45:29 INFO  c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-02-25 21:45:29 INFO  o.h.d.Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-25 21:45:30 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-25 21:45:30 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-25 21:45:30 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:220 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-25 21:45:30 INFO  o.s.s.c.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 21:45:31 INFO  o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-25 21:45:31 INFO  o.s.b.w.e.t.TomcatWebServer:204 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-02-25 21:45:31 INFO  c.j.d.DemoApplication:61 - Started DemoApplication in 5.184 seconds (JVM running for 6.176)
+2020-02-25 21:45:35 INFO  o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-25 21:45:35 INFO  o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2020-02-25 21:45:35 INFO  o.s.w.s.DispatcherServlet:547 - Completed initialization in 15 ms
+2020-02-25 21:45:35 INFO  c.j.d.c.UserController:30 - User registration request received for user testName1
+2020-02-25 21:45:35 INFO  c.j.d.s.UserServiceImpl:25 - User created with userId 8e41b682-8e5f-43c4-b503-5038e8348188
+2020-02-25 21:45:35 INFO  c.j.d.c.UserController:57 - User registration request completed for user: testName1
+2020-02-25 21:54:17 INFO  c.j.d.c.UserController:30 - User registration request received for user testName1
+2020-02-25 21:54:17 INFO  c.j.d.s.UserServiceImpl:25 - User created with userId c4d36140-ade2-42a7-be76-876dca88f2db
+2020-02-25 21:54:17 INFO  c.j.d.c.UserController:57 - User registration request completed for user: testName1
+2020-02-25 22:01:53 INFO  c.j.d.c.UserController:30 - User registration request received for user testName1
+2020-02-25 22:01:53 ERROR c.j.d.c.UserController:33 - Invalid request. Invalid user name testName1
